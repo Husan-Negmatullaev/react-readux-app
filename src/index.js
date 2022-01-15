@@ -12,7 +12,7 @@ const reducer = (state = 0, action) => {
             return state
     }
 }
-
+ 
 let state = reducer(undefined, {})
 
 state = reducer(state, {type: 'INC'})
